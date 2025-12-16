@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-bolt-badge],
+.bolt-badge,
+iframe[src*="bolt"],
+div[class*="bolt-badge"],
+div[class*="bolt"],
+a[href*="bolt.new"],
+a[href*="bolt"],
+div[style*="position: fixed"][style*="bottom"][style*="right"],
+div[style*="position: fixed"][style*="right"][style*="bottom"],
+div[style*="z-index"][style*="9999"],
+div[style*="z-index: 9999"],
+div[style*="z-index:9999"],
+body > div:last-child:not(#root),
+body > a:last-child {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  display: none !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  position: absolute !important;
+  left: -9999px !important;
+}
+

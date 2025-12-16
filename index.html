@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SimonAI</title>
+    <style>
+      #bolt-badge, [class*="bolt"], [id*="bolt"], [data-bolt], .bolt-badge,
+      a[href*="bolt"], button[class*="bolt"], div[class*="badge"],
+      [aria-label*="Made in"], [title*="Made in"], img[alt*="bolt"],
+      footer, .footer, #footer {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+        position: absolute !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
